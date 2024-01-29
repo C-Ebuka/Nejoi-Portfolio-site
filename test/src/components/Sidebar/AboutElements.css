@@ -1,0 +1,32 @@
+/* AboutUsContainer */
+.AboutUsContainer {
+  background: #f8f8f8;
+  padding: 80px 0;
+}
+
+/* AboutUsContent */
+.AboutUsContent {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* AboutUsTitle */
+.AboutUsTitle {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* AboutUsDescription */
+.AboutUsDescription {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* AboutUsMission */
+.AboutUsMission {
+  font-size: 1.2rem;
+  color: #666;
+}

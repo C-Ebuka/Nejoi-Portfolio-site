@@ -1,0 +1,72 @@
+/* SidebarElements.css */
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.SidebarContainer {
+  position: fixed;
+  z-index: 1001;
+  width: 300px; /* Adjust width as needed */
+  height: 100%;
+  background: #ffc500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 0;
+  right: -100%; /* Set a default value */
+  animation: slideInFromRight 0.5s ease-in-out; /* Adjust duration as needed */
+}
+
+.SidebarContainer.open {
+  right: 0; /* Apply when the sidebar is open */
+}
+
+.Icon {
+  color: #000;
+  cursor: pointer;
+}
+
+.SidebarMenu {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.SidebarMenu li {
+  margin-bottom: 15px;
+}
+
+.SidebarMenu a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5rem;
+}
+
+.SidebarMenu a:hover {
+  color: #e31837;
+}
+
+.SideBtnWrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.SidebarRoute {
+  background: #e31837;
+  white-space: nowrap;
+  padding: 16px 32px;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.SidebarRoute:hover {
+  background: #fff;
+  color: #010606;
+}

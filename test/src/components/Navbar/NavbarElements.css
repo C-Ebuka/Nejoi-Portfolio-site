@@ -1,0 +1,50 @@
+
+
+/* Nav */
+.Nav {
+  background: transparent;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+}
+
+/* NavLink */
+.NavLink {
+  color: #fff;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+  /* Apply styles when screen width is 400px or less */
+  .NavLink {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+  }
+}
+
+/* NavIcon */
+.NavIcon {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  color: #fff;
+}
+
+.NavIcon p {
+  transform: translate(-175%, 100%);
+  font-weight: bold;
+}
+
+/* Bars (FaPizzaSlice) */
+.Bars {
+  font-size: 2rem;
+  transform: translate(-50%, -15%);
+}
